@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
             connect your <span className={styles.walletSpan}>wallet,</span>
             <br /> see your NFTs
           </h1>
+          <div className={styles.connectButtonWrapper}>
+          <ConnectButton className={styles.connectbutton}/>
+          </div>
         </div>
       </section>
     </>

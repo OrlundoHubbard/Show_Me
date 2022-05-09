@@ -36,3 +36,9 @@
 .walletSpan {
   color: #DAB4D9;
 }
+
+.connectButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
